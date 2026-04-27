@@ -1,0 +1,66 @@
+1. Aritmetički operatori
+
+Input 10+5
+Ocekivan rezultat = 15
+Dobiven rezultat = 15
+
+Input 10-5
+Ocekivan rezultat = 5
+Dobiven rezultat = 5
+
+Input 10*5
+Ocekivan rezultat = 50
+Dobiven rezultat = 50
+
+Input 10/5
+Ocekivan rezultat = 2
+Dobiven rezultat = 2
+
+2. Prioritet operatera
+
+Input 10+5*2
+Ocekivan rezultat = 20
+Dobiven rezultat = 20
+
+Input 10*5+2
+Ocekivan rezultat = 52
+Dobiven rezultat = 52
+
+3. Zagrade
+
+Input (10+5)*2
+
+Ocekivan rezultat = 30
+Dobiven rezultat = "ERROR"
+
+Input 10/(2+3)
+
+Ocekivan rezultat = 2
+Dobiven rezultat = "ERROR"
+
+4. Djeljenja sa nulom
+
+Input 5/0
+Ocekivan rezultat = greska
+Dobiven rezultat = "Infinity"
+
+5. Validan input
+
+Input 10+*3
+
+Ocekivan rezultat = greska
+Dobiven rezultat = "ERROR"
+
+6. Negativni brojevi
+
+Input -10+5
+
+Ocekivan rezultat = -5
+Dobiven rezultat = -5
+
+7. Mnoge operacije
+
+5+3*(2+1)
+
+Ocekivan rezultat = 14
+Dobiven rezultat = "ERROR"
